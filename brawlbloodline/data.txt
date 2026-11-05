@@ -1,4 +1,32 @@
 BBDATA;1
+# --- REGLAGES (C;cle;valeur). Changer un chiffre ici change le jeu sans republier la map.
+# Evenement : goldPct = 200 -> l'Or gagne est double pour tout le monde (100 = normal).
+C;goldPct;100
+# Prix de la boutique en Or
+C;wolfPrice;5000
+# Gains d'Or
+C;goldLogin;20
+C;goldPerWin;2
+C;goldFightCap;100
+C;goldLevelUp;10
+C;goldLiveRound;5
+C;goldLiveChampion;25
+C;goldDailyRound;5
+C;goldDailyWinner;15
+C;goldPerDefense;1
+C;goldChallenge1;40
+C;goldChallenge2;60
+C;goldChallenge3;80
+C;goldAllChallenges;40
+C;goldDuelWin;8
+C;goldDuelLoss;3
+C;goldTreasure;8
+C;goldAllTreasures;20
+C;goldChicken;15
+C;chickensPerDay;5
+# Ligne de nouveautes sous les defis (A;francais;anglais). Laisser vide pour garder celle de la map.
+# A;Nouveau : la boutique en Or !;New: the Gold shop!
+# --- FANTOMES OFFICIELS (G;nom;niveau;graine;apparence;choix)
 # Brawl Bloodline - official data file. G;name;level;seed;look;choices
 G;Ulimel the Quick;1;564261859;16470;
 G;Tibaxar the Quick;1;1096284581;8208;
